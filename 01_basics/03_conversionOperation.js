@@ -1,4 +1,4 @@
-let score = "hitesh"
+let score = "ashish"
 
 //console.log(typeof score);
 //console.log(typeof(score));
@@ -41,7 +41,7 @@ let negValue = -value
 // console.log(2%3);
 
 let str1 = "hello"
-let str2 = " hitesh"
+let str2 = " ashish"
 
 let str3 = str1 + str2
 // console.log(str3);
