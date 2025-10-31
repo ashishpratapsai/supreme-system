@@ -24,7 +24,7 @@ console.log(id === anotherId);
 
 const heros = ["shaktiman", "naagraj", "doga"];
 let myObj = {
-    name: "hitesh",
+    name: "Ashish",
     age: 22,
 }
 
@@ -37,3 +37,23 @@ console.log(typeof score);
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 
 // to run this file use the command : node 01_basics/datatype-summary.js in terminal
+
+// stack(primitive) vs heap memory(non-primitive) 
+let myYoutubename = "elevatewithashish"
+
+let anothername = myYoutubename
+anothername = "Automatewithashish"
+
+console.log(anothername);
+console.log(myYoutubename);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@upi"
+}
+
+let userTwo = userOne
+userTwo.email = "ashish@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
